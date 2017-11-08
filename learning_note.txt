@@ -1,0 +1,31 @@
+===================================
+How to structure a Go project
+===================================
+
+A directory will hold all your Go programs
+
+This directory should contain a src folder for holding all the source code 
+for different programs.
+the program named directory will then contain the raw *.go files
+
+See below:
+
+Go_programs/
+	src/
+		program1/
+			main.go
+			app.go
+
+Run the following commands in the root of your Go program directory
+1. export GOPATH=`pwd`
+2. go install <program1>
+
+Command (2) will produce a "bin" directory which will then look like this:
+bin/program1
+
+Running "bin/program1" will run your app.
+
+
+
+			
+	
