@@ -3,7 +3,7 @@ import (
 "fmt"
 )
 func main() {
-fmt.Printf("こんにちは\n");
+fmt.Printf("Hello, world!");
 }
 
 
