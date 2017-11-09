@@ -5,11 +5,9 @@ import (
 )
 
 var (
-	message = "The answer to life is %d\n"
-	answer  = 42
-	pi      = 3.14
+	atoz = "the quick brown fox jumps over the lazy dog\n"
 )
 
 func main() {
-	fmt.Printf(message, answer, "while pi is", pi)
+	fmt.Printf(atoz)
 }
