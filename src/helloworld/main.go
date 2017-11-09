@@ -5,9 +5,13 @@ import (
 )
 
 var (
-	atoz = "the quick brown fox jumps over the lazy dog\n"
+	atoz          = "the quick brown fox jumps over the lazy dog\n"
+	len_of_string = len(atoz)
 )
 
 func main() {
-	fmt.Printf("Slicing the string: %s\n", atoz[15:])
+	for i, c := range atoz {
+		fmt.Printf("%d %c\n", i, c)
+	}
+	fmt.Printf("The string is of length: %d\n", len_of_string)
 }
