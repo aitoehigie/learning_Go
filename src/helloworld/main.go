@@ -9,5 +9,5 @@ var (
 )
 
 func main() {
-	fmt.Printf("Slicing the string: %s\n", atoz[:])
+	fmt.Printf("Slicing the string: %s\n", atoz[15:])
 }
