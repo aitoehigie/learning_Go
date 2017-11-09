@@ -10,6 +10,5 @@ var (
 )
 
 func main() {
-	answer += 1
 	fmt.Printf(message, answer)
 }
