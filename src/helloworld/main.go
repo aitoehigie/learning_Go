@@ -4,9 +4,12 @@ import (
 	"fmt"
 )
 
+var (
+	message = "The answer to life is %d\n"
+	answer  = 42
+)
+
 func main() {
-        message := "The answer to life is %d\n"
-	var answer int
-	answer = 42
-	fmt.Printf(message, answer);
+	answer += 1
+	fmt.Printf(message, answer)
 }
